@@ -1,0 +1,38 @@
+.nav{
+height:55px;
+background-color:var(--laranja);
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:stretch;
+gap:2rem;
+padding:0 30px;
+}
+
+.nav ul{
+list-style:none;
+display:flex;
+gap:1rem;
+}
+
+.nav a{
+font-size:24px;
+color:inherit;
+text-decoration:none;
+height:100%;
+display:flex;
+align-items:center;
+padding:0.25rem;
+}
+
+.nav li:hover{
+transition:background .6s;
+overflow:hidden;
+background-color:var(--azul-claro);
+cursor:pointer;
+}
+
+.container {
+margin:1rem;
+text-align:center;
+}
